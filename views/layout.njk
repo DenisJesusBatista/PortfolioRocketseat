@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+
+    {% block head %}
+        <title>Dênis Batista</title>   
+    {% endblock %}
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Header serve para usar algo mais semântico -->
+    <header>
+        <div class="links">
+            <a href="/">Sobre</a>
+            <a href="/portfolio">Aulas</a>
+        </div>
+       
+    </header> 
+    
+
+    {% block content %} {%endblock%}    
+
+</body>
+</html>
